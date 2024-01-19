@@ -11,8 +11,6 @@ A backend Server using Apollo, Graphql, JWT, bcrypt y Mongo DB, for Login, creat
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Authentication](#authentication)
-- [GraphQL Endpoints](#graphql-endpoints)
-- [Database](#database)
 - [Security](#security)
 - [Contributing](#contributing)
 - [License](#license)
@@ -31,10 +29,20 @@ A Project to manage Login, Register and conetion to Database, using GraphQl as a
 - bcrypt
 - JSON Web Tokens (JWT)
 
+## Security
+Bcrypt for encode password and JWT for Login
 
+
+## License
+MIT
 
 ### Installation
 
-1. Clone the repository.
-   ```bash
-   git clone https://github.com/hyrumpro/Twitter-Server-backend/
+1. Clone the repository.   
+   git clone https://github.com/hyrumpro/Twitter-Server-backend
+
+2. Install the modules.
+   npm install
+
+3.run the project
+   npm start
